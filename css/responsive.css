@@ -57,6 +57,20 @@
   .goat-info-btn .btn-rogue {
     padding: 10px 30px;
   }
+  /* online games section */
+  .online-game-section {
+    height: auto;
+  }
+  .online-game-container {
+    width: 80%;
+    height: auto;
+    margin: 400px auto;
+  }
+  .online-games-img-card {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 }
 
 /* ===============Tablet responsive============== */
@@ -75,5 +89,14 @@
   }
   .goat-info-btn {
     margin-top: 20px;
+  }
+  .online-game-container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .online-games-img-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 }

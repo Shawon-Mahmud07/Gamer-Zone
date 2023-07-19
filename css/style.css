@@ -133,7 +133,7 @@ header {
 /* =============main section============ */
 
 /* online games section */
-.onlie-game-section {
+.online-game-section {
   height: 90vh;
 }
 .online-game-container {
@@ -178,7 +178,6 @@ header {
   left: 70px;
   display: none;
 }
-
 .img-card:hover .play-btn {
   display: block;
 }
