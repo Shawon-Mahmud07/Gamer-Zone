@@ -1,0 +1,44 @@
+/* ==================header section===================== */
+/* nav container */
+/* Mobile responsive */
+@media screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-logo {
+    margin-bottom: 15px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-items a {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .nav-items {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+
+  .nav-icon {
+    margin-top: 15px;
+  }
+}
+
+/* Tablet responsive */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* nav container */
+  .navbar {
+    margin: 0 50px;
+  }
+  .nav-items a {
+    margin-right: 15px;
+  }
+}

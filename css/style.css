@@ -15,12 +15,10 @@
   padding: 25px 0px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid blue;
 }
 .nav-logo {
   display: flex;
   align-items: center;
-  border: 1px solid red;
 }
 .nav-logo img {
   width: 50px;
@@ -34,7 +32,6 @@
 .nav-menu {
   display: flex;
   align-items: center;
-  border: 1px solid seagreen;
 }
 .nav-menu a {
   text-decoration: none;
