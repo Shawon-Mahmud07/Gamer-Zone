@@ -129,3 +129,81 @@ header {
 .goat-info-btn {
   margin-top: 30px;
 }
+
+/* =============main section============ */
+
+/* online games section */
+.onlie-game-section {
+  height: 90vh;
+}
+.online-game-container {
+  max-width: 1100px;
+  margin: 20px auto;
+}
+.online-games-info h2 {
+  color: #0b0223;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+}
+.online-title {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.online-games-info p {
+  color: #534c64;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.online-games-img-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.img-card {
+  position: relative;
+}
+.img-card img {
+  width: 250px;
+  transition: filter 0.5s ease;
+}
+.play-btn {
+  position: absolute;
+  top: 100px;
+  left: 70px;
+  display: none;
+}
+
+.img-card:hover .play-btn {
+  display: block;
+}
+.img-card:hover img {
+  filter: brightness(50%);
+}
+.play-btn h5 {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-btn .fa-regular {
+  font-size: 50px;
+  color: white;
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+}
+figcaption {
+  color: #534c64;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
