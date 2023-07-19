@@ -9,7 +9,11 @@
 
 /* ==================header section===================== */
 /* nav container */
+header {
+  height: 100vh;
+}
 .navbar {
+  background-color: #fff;
   max-width: 1100px;
   margin: 0 auto;
   padding: 25px 0px;
@@ -59,4 +63,69 @@
   color: red;
   font-size: 30px;
 }
-/* banner container */
+.nav-icon .fa-tiktok {
+  font-size: 20px;
+}
+
+/* ------banner container------ */
+.banner-section {
+  background-color: #fff;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.goat-info-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.goat-img-container {
+  width: 50%;
+}
+.goat-img-container img {
+  width: 100%;
+}
+.goat-info-container h2 {
+  color: #0b0223;
+  font-family: "Work Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.goat-info-container h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 80px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.goat-info-container p {
+  color: #534c64;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.goat-info-btn .btn-sign {
+  padding: 16px 40px;
+  border-radius: 48px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  border: none;
+  cursor: pointer;
+}
+.goat-info-btn .btn-rogue {
+  background: #4ec5f7;
+  padding: 16px 40px;
+  border-radius: 48px;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.goat-info-btn {
+  margin-top: 30px;
+}
