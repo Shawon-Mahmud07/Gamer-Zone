@@ -130,6 +130,7 @@
   .games-category-section {
     height: auto;
     margin-top: 50px;
+    margin-bottom: -30px;
   }
   .games-category-container {
     margin: 10px;
@@ -147,9 +148,10 @@
     align-items: center;
     gap: 5px;
     border: 1px solid white;
+    padding-left: 5px;
   }
   .role-play {
-    margin-left: 0;
+    margin-left: 0px;
   }
   .category-items p {
     color: #0b0223;
@@ -159,6 +161,72 @@
   }
   .category-items img {
     width: 30px;
+  }
+
+  /* footer section */
+  .footer-section-container {
+    height: 60vh;
+    width: 100vw;
+    background-color: #0b0223;
+  }
+  .footer-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px 0;
+  }
+  .foot-logo h2 {
+    font-size: 20px;
+  }
+  .foot-logo img {
+    width: 45px;
+  }
+  .foot-text p {
+    color: #fff;
+    margin-bottom: 5px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+  }
+  .footer-info {
+    display: grid;
+    grid-template-columns: repeat(2, 50px) 70px;
+  }
+  .social-icon {
+    margin: 25px 0;
+  }
+  .social-icon {
+    list-style: none;
+  }
+  .social-icon .fa-brands {
+    font-size: medium;
+  }
+  .footer-policy-container {
+    display: grid;
+    grid-template-columns: repeat(2, 120px);
+    justify-content: space-around;
+    row-gap: 10px;
+    width: 50%;
+    margin: 10px auto;
+    justify-items: center;
+  }
+  .footer-policy p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 8px;
+    font-weight: 500;
+  }
+  .footer-title {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Work Sans", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .footer-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
   }
 }
 

@@ -262,7 +262,7 @@ figcaption {
 
 /* games category section */
 .games-category-section {
-  height: 50vh;
+  height: 30vh;
   margin-top: 100px;
 }
 .games-category-container {
@@ -294,6 +294,9 @@ figcaption {
   border: 1px solid rgb(240, 16, 221);
   border-radius: 50px;
 }
+.category-items:hover p {
+  color: rgb(213, 54, 199);
+}
 .category-items p {
   color: #0b0223;
   font-family: "Work Sans", sans-serif;
@@ -302,4 +305,77 @@ figcaption {
 }
 .category-items img {
   width: 50px;
+}
+main {
+  margin-bottom: 100px;
+}
+
+/* footer section */
+.footer-section-container {
+  height: 60vh;
+  width: 100%;
+  margin: auto;
+  background-color: #0b0223;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-container {
+  width: 60%;
+  margin: auto;
+}
+.foot-logo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+
+.foot-logo h2 {
+  font-size: 38px;
+}
+.foot-text p {
+  color: #fff;
+  margin-bottom: 30px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+}
+.social-icon {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.social-icon {
+  list-style: none;
+}
+.footer-policy-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.footer-policy p {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+.footer-title {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Work Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+}
+.footer-title-container {
+  display: flex;
+  justify-content: center;
 }
