@@ -259,3 +259,47 @@ figcaption {
   width: 90%;
   margin-left: 60px;
 }
+
+/* games category section */
+.games-category-section {
+  height: 50vh;
+  margin-top: 100px;
+}
+.games-category-container {
+  max-width: 1100px;
+  margin: 80px auto;
+}
+.category-items-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  row-gap: 30px;
+  justify-items: start;
+  padding: 50px 0px;
+}
+
+.category-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 5px;
+  border: 1px solid white;
+}
+.role-play {
+  margin-left: 25px;
+}
+.category-items:hover {
+  border: 1px solid rgb(240, 16, 221);
+  border-radius: 50px;
+}
+.category-items p {
+  color: #0b0223;
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.category-items img {
+  width: 50px;
+}

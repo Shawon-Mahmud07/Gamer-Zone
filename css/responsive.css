@@ -84,11 +84,11 @@
 
   /* play games instantly section */
   .play-game-container {
-    max-width: 80%;
+    max-width: 576px;
     height: auto;
     margin: 60px auto;
     flex-direction: column;
-    align-items: center;
+    align-content: center;
   }
   .play-game-info-container h2 {
     text-align: center;
@@ -100,8 +100,8 @@
     width: 100%;
   }
   .play-game-img-container {
-    text-align: center;
-    width: 100%;
+    width: 90%;
+    margin: auto;
   }
   .play-game-info-container p {
     margin-top: 20px;
@@ -112,18 +112,53 @@
   }
   .play-game-img-container {
     position: relative;
-    width: 100%;
+    width: 90%;
     margin-top: 30px;
+    display: flex;
   }
   .play-game-img-container .cat {
     width: 120px;
     position: absolute;
-    top: 200px;
-    right: 200px;
+    top: 190px;
+    right: 220px;
   }
   .play-game-img-container img {
-    width: 80%;
-    margin-left: 50px;
+    width: 290px;
+  }
+
+  /* games category section */
+  .games-category-section {
+    height: auto;
+    margin-top: 50px;
+  }
+  .games-category-container {
+    margin: 10px;
+  }
+  .category-items-container {
+    width: 100%;
+    grid-template-columns: repeat(3, 120px);
+    gap: 5px;
+    row-gap: 10px;
+    justify-content: center;
+  }
+  .category-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid white;
+  }
+  .role-play {
+    margin-left: 0;
+  }
+  .category-items p {
+    color: #0b0223;
+    font-family: "Work Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .category-items img {
+    width: 30px;
   }
 }
 
@@ -200,5 +235,41 @@
   .play-game-img-container img {
     width: 85%;
     margin-left: 50px;
+  }
+
+  /* games category section */
+  .games-category-section {
+    height: auto;
+    margin-top: -40px;
+    border: 1px solid red;
+  }
+  .games-category-container {
+    margin: 0 10px;
+  }
+  .category-items-container {
+    width: 100%;
+    grid-template-columns: repeat(3, 200px);
+    gap: 10px;
+    row-gap: 20px;
+    justify-content: center;
+  }
+  .category-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid white;
+  }
+  .role-play {
+    margin-left: 0;
+  }
+  .category-items p {
+    color: #0b0223;
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .category-items img {
+    width: 40px;
   }
 }
